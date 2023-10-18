@@ -108,13 +108,17 @@
     </div>
 
     <iframe src="https://google.com" height="500" width="250" style="border: none;"></iframe>
-
-    <form>
+    <!--form action needs to specify where do you want the data to be sent to after clicking the button-->
+    <form action="form.html" method="get">
         <label for="username">Name</label>
         <br>
         <input type="text" name ="username" id="username">
-        <input type="number">
+        <br>
+        <label for ="Groceries">Groceries Button</label>
+        <input type="radio" name ="Groceries" id ="Groceries" value = "Groceries">
+        <br>
         
+        <input type="submit" value ="Send">
 
     </form>
 
